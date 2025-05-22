@@ -18,10 +18,10 @@ k_folds = 5 #numero de divisiones para validación cruzada
 normalizar = True 
 
 topologias = [ #diferentes estructuras de red a probar 
-    [32, 16]
+    [5,6,4]
 ]
 activaciones = ['relu', 'tanh', 'sigmoid'] #tipos de funciones que activan las neuronas
-epocas = 100 # Cuantas veces se entrena el modelo sobre el archivo
+epocas = 40 # Cuantas veces se entrena el modelo sobre el archivo
 batch_size = 10 # Cantidad de datos que se usan en cada paso del entrenamiento
 
 # Semillas para reproducibilidad
